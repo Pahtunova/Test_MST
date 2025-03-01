@@ -1,0 +1,110 @@
+@media (max-width: 1400px) {
+  .header {
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+  }
+  .lagoona {
+    background-image: none;
+    padding: 50px;
+  }
+  .about__container {
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  .about__item {
+    width: 100%;
+  }
+
+  .about__img_1400 {
+    max-width: 1400px;
+    height: 100%;
+  }
+
+  .about__item_text {
+    padding-bottom: 40px;
+  }
+
+  .form__card {
+    padding: 60px;
+    background-image: none;
+  }
+  .lagoona__text {
+    padding-top: 60px;
+    max-width: 1200px;
+  }
+
+  .lagoona__container_2 {
+    max-width: 1200px;
+  }
+  .about {
+    padding-top: 0;
+  }
+
+  .footer__down {
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .footer__logo {
+    align-items: center;
+  }
+
+  .footer__logo_1 {
+    margin-right: 0;
+  }
+
+  .footer__logo_2,
+  .footer__social_p {
+    display: none;
+  }
+
+  .footer__book {
+    align-items: center;
+  }
+
+  .footer__btn {
+    padding: 20px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .form {
+    padding: 50px 0 0 0;
+  }
+
+  .lagoona__h1 {
+    font-size: 40px;
+  }
+
+  .lagoona {
+    padding: 50px 40px;
+  }
+
+  .lagoona__description {
+    font-size: 20px;
+  }
+
+  .footer__social_list {
+    max-width: 400px;
+    flex-wrap: wrap;
+  }
+
+  .footer__down {
+    padding: 50px;
+  }
+
+  .header {
+    width: 320px;
+  }
+
+  .lagoona__btn {
+    width: 100%;
+  }
+
+  .lagoona__advantages{
+    font-size: 15px;
+  }
+}
